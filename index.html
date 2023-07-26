@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B8A3-fruit-brust</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+   <!-- daisy ui -->
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font aweosome link -->
+    <script src="https://kit.fontawesome.com/30f7df5d4c.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <!-- header section -->
+    <header class="mx-auto">
+        <!-- nav section -->
+        <div class="px-40 my-11 ">
+            <div class="navbar rounded-full py-7 bg-[#F85559]">
+                <div class="navbar-start px-12">
+                  <div class="">
+                    <ul class="flex gap-8 text-2xl text-white font-medium">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="navbar-center space-x-4">
+                    <div>
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                    <div class="text-4xl text-white font-bold">
+                        <h3>Fruit Burst</h3>
+                    </div>
+                </div>
+                <div class="navbar-end px-11">
+                  <div class="flex text-gray-300 text-xl relative">
+                    <input class="px-20 py-3 rounded-full" type="text" placeholder="search here">
+                  </div>
+                  <div class="absolute px-7">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </header>
+    <main class="px-40 relative top-0 left-0">
+        <div class="carousel w-full ">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="./images/banner1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="./images/banner2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="./images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="./images/banner4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-4 items-center absolute">
+            <h3 class="text-6xl text-white">Exotic tastes at your doorstep</h3>
+            <p class="text-2xl text-white">We supply highly quality organic products</p>
+            <button class="bg-green-500">Shop Now</button>
+        </div>
+    </main>
+</body>
+</html>
